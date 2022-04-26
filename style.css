@@ -1,0 +1,393 @@
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 250px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: black; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 16px 26px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+  }
+
+  .sidenav p {
+      font-size: 25px;
+      color: white;
+      display: flex;
+      /* justify-content: center; */
+      align-items: center;
+      padding-bottom: 20px;
+      padding-left: 26px;
+  }
+
+  .sidenav img{
+    padding-right: 10px;
+    align-items: center;
+}
+
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .navbar {
+    height: 100px;
+    background-color: #121212;
+    color: white;
+  }
+
+
+
+
+
+
+  .icons {
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* .navbar-brand img {
+    padding-right: 20px;
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  } */
+  
+  .main {
+    margin-left: 260px; /* Same as the width of the sidebar */
+    padding: 0px 10px 10px 10px;
+    color: white;
+    }
+
+  .icons img {
+    margin-right: 20px;
+  }
+
+  .son a {
+    cursor: default;
+  }
+
+  .icons img:hover {
+    /* background-color: white; */
+  }
+
+  .main .title {
+    font-size: 30px;
+  }
+
+  #profil {
+    padding-top: 230px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 150px;
+    padding-left: 80px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #000;
+    /* background-color: #000; */
+    /* background-image: url(./img/marvin.png); */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-position: 50%; */
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .projets a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .projets a :hover{
+    text-decoration: none;
+    color: white;
+    background: #000000;
+background: -moz-linear-gradient(-45deg, #000000 0%, #1A0035 33%, #1A0035 100%);
+background: -webkit-linear-gradient(-45deg, #000000 0%, #1A0035 33%, #1A0035 100%);
+background: linear-gradient(135deg, #000000 0%, #1A0035 33%, #1A0035 100%);  
+  }
+
+  .skills a {
+    text-decoration: none;
+    color: white;
+    background-color: #61dafb;
+  }
+
+  .skills #html :hover {
+    color: white;
+    background: linear-gradient(129deg, #f16529 0%, #000000 20%, #000 80%, #f16529 100%);
+  }
+
+  .skills #html .p-4 :hover {
+    background: transparent;
+  }
+
+  .skills #css :hover {
+    color: white;
+    background: linear-gradient(129deg, #2965f1 0%, #000000 20%, #000 80%, #2965f1 100%);
+  }
+
+  .skills #css .p-4 :hover {
+    background: transparent;
+  }
+
+  .skills #js :hover {
+    color: white;
+    background: linear-gradient(129deg, #ffda3e 0%, #000000 20%, #000 80%, #ffda3e 100%);
+  }
+
+  .skills #js .p-4 :hover {
+    background: transparent;
+  }
+
+  .skills #bootstrap :hover {
+    color: white;
+    background: linear-gradient(129deg, #8512fb 0%, #000000 20%, #000 80%, #8512fb 100%);
+  }
+
+  .skills #bootstrap .p-4 :hover {
+    background: transparent;
+  }
+
+  .skills #react :hover {
+    color: white;
+    background: linear-gradient(129deg, #61dafb 0%, #000000 20%, #000 80%, #61dafb 100%);
+  }
+
+  .skills #react .p-4 :hover {
+    background: transparent;
+  }
+
+  .skills #jquery :hover {
+    color: white;
+    background: linear-gradient(129deg, #1169ae 0%, #000000 20%, #000 80%, #1169ae 100%);
+  }
+
+  .skills #jquery .p-4 :hover {
+    background: transparent;
+  }
+
+  .skills .p-4 {
+    border-radius: 10px;
+  }
+
+  .p-3 {
+    border-radius: 10px;
+    background-color: #1A0035;
+    font-size: 20px;
+  }
+  
+  .contact {
+    /* color: #61dafb; */
+  }
+
+  header {
+    background: #420089;
+background: -moz-linear-gradient(top, #420089 0%, #000000 58%, #000000 100%);
+background: -webkit-linear-gradient(top, #420089 0%, #000000 58%, #000000 100%);
+background: linear-gradient(to bottom, #420089 0%, #000000 58%, #000000 100%);
+margin-bottom: 80px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+  .p-4 {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .title {
+    padding-top: 20px;
+  }
+
+   .p-3 {
+    display: flex;
+    align-items: center;
+  }
+  
+   .logos {
+    border-right-style: solid;
+    border-right-color: white;
+    padding-right: 10px;
+    margin-right: 20px;
+  }
+
+  #monstre {
+    padding-left: 10px ;
+    padding-right: 20px;
+  }
+
+  hr {
+    color: white !important;
+    width: 50%;
+    margin-left: 4rem !important;
+    opacity: 1 !important;
+    }
+
+
+
+
+
+
+    
+  #myProgress {
+    width: 400px;
+    background-color: gray; 
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  #myBar {
+    width: 0%;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+    }
+  
+  .logo {
+    fill: red;
+  }
+  
+  .btn-action{
+    cursor: pointer;
+    padding-top: 10px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .btn-ctn, .infos-ctn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .infos-ctn{
+  padding-top: 10px;
+  margin-bottom: 20px;
+  }
+  
+  .btn-ctn > div {
+   padding: 5px;
+   /* margin-top: 8px;
+   margin-bottom: 1px; */
+  }
+  
+  .infos-ctn > div {
+   margin-bottom: 8px;
+   color: white;
+  }
+  
+  .first-btn{
+    margin-left: 3px;
+  }
+  
+  .duration{
+    margin-left: 10px;
+  }
+
+  .timer {
+      margin-right: 10px;
+  }
+  
+  .title{
+    /* margin-left: 10px; */
+    width: 210px;
+    /* text-align: center; */
+  }
+  
+  .player-ctn{
+    border-radius: 15px;
+    width: 420px;
+    padding: 10px;
+    margin:auto;
+    /* margin-top: 100px; */
+  }
+  
+  .playlist-track-ctn{
+    display: flex;
+    margin-top: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .playlist-track-ctn:last-child{
+    /*border: 1px solid #ffc266; */
+  }
+  
+  .playlist-track-ctn > div{
+    margin:10px;
+  }
+  .playlist-info-track{
+    width: 80%;
+  }
+  .playlist-info-track,.playlist-duration{
+    /* padding-top: 7px; */
+    padding-bottom: 7px;
+    color: white;
+    font-size: 14px;
+    pointer-events: none;
+  }
+  .playlist-ctn{
+     padding-bottom: 20px;
+     color: purple !important;
+  }
+  .active-track{
+    background-color: #1c1919;
+    color: white !important;
+    font-weight: bold;    
+  }
+  
+  .active-track > .playlist-info-track,.active-track >.playlist-duration,.active-track > .playlist-btn-play{
+    color: white !important;
+  }
+  
+  
+  .playlist-btn-play{
+    pointer-events: none;
+    /* padding-top: 5px; */
+    padding-bottom: 5px;
+  }
+  .fas{
+    color: gray;
+    font-size: 20px;
+  }
+
+  .btn-action :hover {
+    color: white;
+  }
+
+  .sidenav i {
+    color: transparent;
+  }
+
+  .fixed-bottom .col-2 {
+    /* background-color: #8512fb; */
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  .fixed-bottom .col-2 .title {
+    padding-left: 10px;
+  }
+
+
+  .col-1{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
