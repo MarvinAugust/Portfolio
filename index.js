@@ -22,10 +22,10 @@ function createTrackItem(index,name,duration){
     trackInfoItem.innerHTML = name
     document.querySelector("#ptc-"+index).appendChild(trackInfoItem);
 
-    var trackDurationItem = document.createElement('div');
-    trackDurationItem.setAttribute("class", "playlist-duration");
-    trackDurationItem.innerHTML = duration
-    document.querySelector("#ptc-"+index).appendChild(trackDurationItem);
+    // var trackDurationItem = document.createElement('div');
+    // trackDurationItem.setAttribute("class", "playlist-duration");
+    // trackDurationItem.innerHTML = duration
+    // document.querySelector("#ptc-"+index).appendChild(trackDurationItem);
   }
 
   var listAudio = [
@@ -35,14 +35,14 @@ function createTrackItem(index,name,duration){
       duration:"14:50"
     },
     {
-      name:"Artist 2  Audio 2",
-      file:"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
-      duration:"05:53"
+      name:"8bit",
+      file:"./audio/LucidDreams.mp3",
+      duration:"04:03"
     },
     {
-      name:"Artist 3  Audio 3",
-      file:"https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3",
-      duration:"00:27"
+      name:"Piano",
+      file:"./audio/changes.mp3",
+      duration:"60:40"
     }
   ]
 

@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="icon" href="./img/spotify2.png" />
   <title>Portfolio</title>
   <script src="https://kit.fontawesome.com/e908f71e67.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
@@ -18,7 +19,7 @@
     <a href="#about"><img src="./img/user.png" height="25px">Profil</a>
     <a href="#projets"><img src="./img/images.png" height="25px">Projets</a>
     <a href="#skills"><img src="./img/skill.png" height="25px">Compétences</a>
-    <a href="#"><img src="./img/contact.png" height="25px">Contact</a>
+    <a href="#contact"><img src="./img/contact.png" height="25px">Contact</a>
     <hr>
 
     <div class="playlist-ctn"></div>
@@ -108,49 +109,88 @@
 
         <p id="profil">
           Je suis un jeune développeur web Fullstack junior. Actuellement en formation chez Konexio,
-          je suis à la recherche d'un stage d'une durée de 4 à 6 mois à partir du 6 juin 2022.
+          J'ai eu l'occasion de parfaire mes compétences tout en menant à bien les différents projets que l'on m'a
+          confié.
           J'aime travailler en équipe et je suis déterminé à réussir dans ce domaine.
         </p>
       </div>
 
-      <div class="projets">
+      <div class="projects">
         <p id="projets" class="title">Projets</p>
         <div class="container">
           <div class="row g-2">
             <div class="col-12 col-md-4">
-              <a href="#">
-                <div class="p-3 projet">
+              <details>
+                <summary>
                   <div class="logos"><img src="./img/quiz.png" height="40px"></div>Quiz
+                </summary>
+                <div class="projet">
+                  Site de quiz crée en HTML, CSS , Javascript au début de ma formation.<br>
+                  <a href="#">Voir</a>
                 </div>
-              </a>
+              </details>
             </div>
             <div class="col-12 col-md-4">
-              <a href="#">
-                <div class="p-3 projet">
-                  <div id="monstre" class="logos"><img src="./img/monsters.png" height="40px"></div>Monsters Invaders
+
+              <details>
+                <summary>
+                  <div class="logos"><img src="./img/monsters.png" height="40px"></div>Monsters Invaders
+                </summary>
+                <div class="projet">
+                  Jeu au style de Space Invaders crée en 1 semaine en ReactJS.<br>
+                  <a target="_blank" href="https://monsters-invaders.herokuapp.com/">Voir</a>
+
                 </div>
-              </a>
+              </details>
             </div>
             <div class="col-12 col-md-4">
-              <a href="#">
-                <div class="p-3 projet">Projet 3</div>
-              </a>
+              <details>
+                <summary>
+                  <div class="logos"><img src="./img/pokeball.png" height="40px"></div>Pokédex
+                </summary>
+                <div class="projet">
+                  Pokédex réaliser en ReactJS lors de ma formation.<br>
+                  <a href="#">Voir</a>
+
+                </div>
+              </details>
             </div>
-            <div class="col-12 col-md-4">
-              <a href="#">
-                <div class="p-3 projet">Projet 4</div>
-              </a>
-            </div>
-            <div class="col-12 col-md-4">
-              <a href="#">
-                <div class="p-3 projet">Projet 5</div>
-              </a>
-            </div>
-            <div class="col-12 col-md-4">
-              <a href="#">
-                <div class="p-3 projet">Projet 6</div>
-              </a>
-            </div>
+            <!-- <div class="col-12 col-md-4">
+              <details>
+                <summary>
+                  <div class="logos"><img src="/img/quiz.png" height="40px"></div>Quiz
+                </summary>
+                <div>
+                  Je suis un jeune développeur web Fullstack junior. Actuellement en formation chez Konexio,
+                  je suis à la recherche d'un stage d'une durée de 4 à 6 mois à partir du 6 juin 2022.
+                  J'aime travailler en équipe et je suis déterminé à réussir dans ce domaine.
+                </div>
+              </details>
+            </div> -->
+            <!-- <div class="col-12 col-md-4">
+              <details>
+                <summary>
+                  <div class="logos"><img src="/img/quiz.png" height="40px"></div>Quiz
+                </summary>
+                <div>
+                  Je suis un jeune développeur web Fullstack junior. Actuellement en formation chez Konexio,
+                  je suis à la recherche d'un stage d'une durée de 4 à 6 mois à partir du 6 juin 2022.
+                  J'aime travailler en équipe et je suis déterminé à réussir dans ce domaine.
+                </div>
+              </details>
+            </div> -->
+            <!-- <div class="col-12 col-md-4">
+              <details>
+                <summary>
+                  <div class="logos"><img src="/img/quiz.png" height="40px"></div>Quiz
+                </summary>
+                <div>
+                  Je suis un jeune développeur web Fullstack junior. Actuellement en formation chez Konexio,
+                  je suis à la recherche d'un stage d'une durée de 4 à 6 mois à partir du 6 juin 2022.
+                  J'aime travailler en équipe et je suis déterminé à réussir dans ce domaine.
+                </div>
+              </details>
+            </div> -->
           </div>
         </div>
       </div>
@@ -160,34 +200,34 @@
         <div class="container">
           <div class="row g-2">
             <div class="col-12 col-sm-6 col-md-4">
-              <a id="html" href="#">
+              <div id="html" href="#html">
                 <div class="p-4"><img src="./img/html.png" height="100px">HTML</div>
-              </a>
+              </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
-              <a id="css" href="#">
+              <div id="css" href="#css">
                 <div class="p-4"><img src="./img/css.png" height="100px">CSS</div>
-              </a>
+              </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
-              <a id="js" href="#">
+              <div id="js" href="#js">
                 <div class="p-4"><img src="./img/JS.png" height="100px">Javascript</div>
-              </a>
+              </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
-              <a id="bootstrap" href="#">
+              <div id="bootstrap" href="#bootstrap">
                 <div class="p-4"><img src="./img/Boostrap.png" height="100px">Bootstrap</div>
-              </a>
+              </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
-              <a id="react" href="#">
+              <div id="react" href="#react">
                 <div class="p-4"><img src="./img/React.png" height="100px">React JS</div>
-              </a>
+              </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
-              <a id="jquery" href="#">
+              <div id="jquery" href="#jquery">
                 <div class="p-4"><img src="./img/jquery.png" height="100px">JQuery</div>
-              </a>
+              </div>
             </div>
           </div>
         </div>
@@ -196,7 +236,35 @@
 
       <div class="contact">
         <p id="contact" class="title">Contact</p>
+        <div class="container">
+          <div class="row g-2">
+            <!-- <div class="icon-list"> -->
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="p-4"><a target="_blank" href="https://www.linkedin.com/in/marvin-auguste/"><img
+                    src="./img/linkedin.png" height="100px">
+                  <p>Linkedin</p>
+                </a></div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="p-4"><a target="_blank" href="mailto:marvin.auguste@hotmail.fr"><img src="./img/mail.png"
+                    height="100px">
+                  <p>Mail</p>
+                </a></div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="p-4"><a target="_blank" href="https://github.com/MarvinAugust"><img src="./img/github.png"
+                    height="100px">
+                  <p>Github</p>
+                </a></div>
+            </div>
+
+
+            <!-- </div> -->
+          </div>
+        </div>
       </div>
+
+
     </div>
   </header>
 
